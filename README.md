@@ -1,6 +1,6 @@
 # MTA_Lighting_CyberSecurity
 URL Phishing Detection with MachineLearning
-#Run
+# Run
 Run server.py to run code on server
-#Extension
+# Extension
 In folder Extension
