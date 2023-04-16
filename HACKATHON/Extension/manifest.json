@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+
+  "name": "Malicious Web Content Detector",
+  "description": "This extension helps you avoid accessing malicious websites by giving you a chance to analyze the website before you interact with it.",
+  "version": "1.0",
+
+  "action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+    "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'; script-src-elem 'self' 'unsafe-inline' https://ajax.googleapis.com"
+    },
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
