@@ -1,0 +1,3 @@
+flask
+pickle
+python==3.9
